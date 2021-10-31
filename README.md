@@ -1,7 +1,13 @@
 github项目常见徽章如何生成？
 ---
 [![build](https://github.com/luckyQing/ci-badge/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/luckyQing/ci-badge/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/luckyQing/ci-badge/branch/main/graph/badge.svg?token=M1R2XGICAL)](https://codecov.io/gh/luckyQing/ci-badge)
+[![codecov](https://codecov.io/gh/luckyQing/ci-badge/branch/main/graph/badge.svg)](https://codecov.io/gh/luckyQing/ci-badge)
+[![license](https://img.shields.io/badge/license-Apache%202-green)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![jdk version](https://img.shields.io/badge/jdk-1.8+-blue.svg)](https://docs.oracle.com/javase/8/docs/api/)
+![](https://img.shields.io/badge/spring--boot-2.5.4.RELEASE-blue.svg)
+![](https://img.shields.io/badge/spring--cloud-2020.0.3-blue.svg)
+![](https://img.shields.io/github/stars/luckyQing/ci-badge?label=Star&color=brightgreen)
+![](https://img.shields.io/github/forks/luckyQing/ci-badge?label=Fork&color=brightgreen)
 # 一、build passing
 github项目——>Actions——>New workflow——>Java with Maven
 ![](images/build.png)
