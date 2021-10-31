@@ -25,10 +25,4 @@ jobs:
     - name: Build with Maven
       run: mvn --batch-mode clean install -T 4
     - name: Codecov
-      uses: codecov/codecov-action@v2.1.0
-      with:
-        directory: ./coverage/reports/
-        fail_ci_if_error: true
-        flags: unittests
-        name: codecov-umbrella
-        verbose: true
+      uses: codecov/codecov-action@v1.5.0
