@@ -15,6 +15,7 @@ coverage:
 ignore:
  - "test/.*"
  - ".github/.*"
+ - "images/.*"
  - ".mvn/.*"
  - ".style/.*"
  - "*.md"
