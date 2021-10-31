@@ -4,7 +4,7 @@ github项目常见徽章如何生成？
 [![codecov](https://codecov.io/gh/luckyQing/ci-badge/branch/main/graph/badge.svg?token=M1R2XGICAL)](https://codecov.io/gh/luckyQing/ci-badge)
 # 一、build passing
 github项目——>Actions——>New workflow——>Java with Maven
-
+![](images/build.png)
 # 二、codecov
 codecov是一个测试结果分析工具
 - 去codecov官网（https://app.codecov.io/gh）用github账号登陆并授权，选择要分析的仓库
