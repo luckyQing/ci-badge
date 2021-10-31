@@ -26,3 +26,5 @@ jobs:
       run: mvn --batch-mode clean install -T 4
     - name: Codecov
       uses: codecov/codecov-action@v1.5.0
+    - name: action-scrutinizer
+      uses: sudo-bot/action-scrutinizer@latest
