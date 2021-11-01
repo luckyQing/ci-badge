@@ -2,6 +2,7 @@ github项目常见徽章如何生成？
 ---
 [![build](https://github.com/luckyQing/ci-badge/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/luckyQing/ci-badge/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/luckyQing/ci-badge/branch/main/graph/badge.svg)](https://codecov.io/gh/luckyQing/ci-badge)
+[![CodeQL](https://github.com/luckyQing/ci-badge/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/luckyQing/ci-badge/actions/workflows/codeql-analysis.yml)
 [![license](https://img.shields.io/badge/license-Apache%202-green)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![jdk version](https://img.shields.io/badge/jdk-1.8+-blue.svg)](https://docs.oracle.com/javase/8/docs/api/)
 ![](https://img.shields.io/badge/spring--boot-2.5.4.RELEASE-blue.svg)
