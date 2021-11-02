@@ -2,6 +2,7 @@ github项目常见徽章如何生成？
 ---
 [![build](https://github.com/luckyQing/ci-badge/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/luckyQing/ci-badge/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/luckyQing/ci-badge/branch/main/graph/badge.svg)](https://codecov.io/gh/luckyQing/ci-badge)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/luckyQing/ci-badge.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/luckyQing/ci-badge/context:java)
 [![CodeQL](https://github.com/luckyQing/ci-badge/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/luckyQing/ci-badge/actions/workflows/codeql-analysis.yml)
 [![license](https://img.shields.io/badge/license-Apache%202-green)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![jdk version](https://img.shields.io/badge/jdk-1.8+-blue.svg)](https://docs.oracle.com/javase/8/docs/api/)
@@ -68,7 +69,10 @@ codecov是一个测试结果分析工具
       uses: codecov/codecov-action@v1.5.0
   ```
   
-# 三、codeql
+# 三、code quality
+https://lgtm.com/
+
+# 四、codeql
 新增.github/workflows/codeql-analysis.yml
 ```
 name: "CodeQL"
@@ -132,5 +136,5 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
 ```
-# 四、其他
+# 五、其他
 https://shields.io/
